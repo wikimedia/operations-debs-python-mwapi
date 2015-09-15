@@ -1,0 +1,17 @@
+Source: mwapi
+Maintainer: Yuvi Panda <yuvipanda@riseup.net>
+Section: python
+Priority: optional
+Build-Depends: python3-setuptools, python3-all, debhelper (>= 9)
+Homepage: https://github.com/mediawiki-utilities/python-mwapi
+Standards-Version: 3.9.6
+
+Package: python3-mwapi
+Architecture: any
+Depends: ${misc:Depends}, ${python3:Depends}, ${shlibs:Depends}
+Description: Simple Python3 Wrapper for accessing MediaWiki API
+ Very simple convenience wrapper around the MediaWiki API. Has
+ support for authenticated sessions. Only supports MediaWiki
+ 1.15.3 or greater.
+ .
+ Documentation at https://github.com/mediawiki-utilities/python-mwapi
